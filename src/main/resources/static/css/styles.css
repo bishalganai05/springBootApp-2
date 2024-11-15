@@ -1,0 +1,118 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f6fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h2 {
+    color: #3a3a3a;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.message {
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}
+.message.success {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+.message.error {
+    background-color: #ffebee;
+    color: #d32f2f;
+}
+
+/* Form Container */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px 0;
+}
+form label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333;
+}
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Navigation Links */
+.nav-links {
+    text-align: center;
+    margin-top: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 16px;
+    margin: 0 12px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover {
+    color: #2980b9;
+}
+
+/* Logout Link */
+.logout {
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: 600;
+    font-size: 16px;
+}
+.logout:hover {
+    color: #b71c1c;
+}
